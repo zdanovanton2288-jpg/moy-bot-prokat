@@ -1,4 +1,5 @@
 import logging
+import os
 import asyncio
 from aiogram import Bot, Dispatcher, types, F
 from aiogram.filters import Command
@@ -7,8 +8,9 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 
 # ВСТАВЬТЕ ВАШИ ДАННЫЕ
-API_TOKEN = '9094086525:AAHjInXsw-7E_w8mm9PT99wZjDbUGZhHXaQ'
-ADMIN_ID = 8313826963 # Ваш ID (узнать у @userinfobot)
+python
+   API_TOKEN = os.getenv("BOT_TOKEN")
+ADMIN_ID = int(os.getenv("ADMIN_ID")) 
 
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=API_TOKEN)
