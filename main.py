@@ -9,7 +9,7 @@ from aiogram.fsm.state import State, StatesGroup
 # ВСТАВЬТЕ ВАШИ ДАННЫЕ
 python
    API_TOKEN = os.getenv("9094086525:AAHVSC49LsoFV5BWzOldZcE1fv_SelVvfaI")
-ADMIN_ID = int(os.getenv("ADMIN_ID")) 
+ADMIN_ID = int(os.getenv("8313826963")) 
 
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=API_TOKEN)
