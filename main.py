@@ -1,5 +1,4 @@
 import logging
-import os
 import asyncio
 from aiogram import Bot, Dispatcher, types, F
 from aiogram.filters import Command
@@ -9,7 +8,7 @@ from aiogram.fsm.state import State, StatesGroup
 
 # ВСТАВЬТЕ ВАШИ ДАННЫЕ
 python
-   API_TOKEN = os.getenv("BOT_TOKEN")
+   API_TOKEN = os.getenv("9094086525:AAHVSC49LsoFV5BWzOldZcE1fv_SelVvfaI")
 ADMIN_ID = int(os.getenv("ADMIN_ID")) 
 
 logging.basicConfig(level=logging.INFO)
